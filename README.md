@@ -2,31 +2,65 @@
 
 ## Project Overview
 
-Started this project as a way to practice and strengthen my Data Analysis skills through a real-world use case. What began as "just a small practice project" quickly turned into analyzing customer behavior, identifying churn patterns, building prediction models, and creating business insights.
+This project was developed as a hands-on practice project to strengthen Data Analysis and Machine Learning skills using a real-world customer churn dataset.
 
-This project focuses on understanding customer churn and transforming raw data into meaningful insights through an end-to-end analytics workflow.
+What started as a simple learning exercise gradually evolved into an end-to-end analytics workflow involving data preprocessing, exploratory analysis, machine learning, SQL integration, and Power BI dashboard creation.
 
-## Skills Practiced
+The main objective of this project is to identify customer churn patterns and generate meaningful business insights that can support customer retention strategies.
 
-📊 Data Cleaning & Preprocessing  
-📈 Exploratory Data Analysis (EDA)  
-🤖 Machine Learning for Churn Prediction  
-📉 Power BI Dashboard Creation  
-🗄️ SQL Integration  
-💡 Business Insights & Recommendations  
+---
 
-## Tools Used
+## Problem Statement
 
+Customer churn directly impacts business growth and revenue. Understanding why customers leave and identifying high-risk customers helps organizations improve retention and make data-driven decisions.
+
+This project aims to:
+
+- Analyze customer behavior
+- Identify churn patterns
+- Predict customer churn
+- Generate business insights
+- Visualize findings through dashboards
+
+---
+
+## Technologies Used
+
+### Programming & Analysis
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
+- Scikit-Learn
+
+### Visualization
 - Power BI
-- SQL
+- Matplotlib
+
+### Database
+- SQLite / SQL
+
+### Development Environment
 - Google Colab
 
-## Project Goal
+---
 
-The goal wasn't only to build a model, but to get practical experience and maintain hands-on exposure to the complete Data Analysis process.
+## Dataset Information
 
-Learning by building 🚀
+Dataset used:
+
+IBM Telco Customer Churn Dataset
+
+Features include:
+
+- Customer demographics
+- Contract information
+- Monthly charges
+- Internet services
+- Payment methods
+- Customer tenure
+- Churn status
+
+Target variable:
+
+```text
+Churn
